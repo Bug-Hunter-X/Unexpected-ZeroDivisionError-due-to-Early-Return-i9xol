@@ -1,0 +1,3 @@
+# Unexpected ZeroDivisionError in Python
+
+This repository demonstrates a subtle bug in a Python function that can lead to an unexpected `ZeroDivisionError`.  The error isn't immediately apparent due to a conditional return statement that makes the division occur only under a certain circumstance. The solution corrects the problem by adjusting the logic to prevent the division by zero condition entirely.
